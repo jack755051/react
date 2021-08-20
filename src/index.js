@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import APP from './App';
 import reportWebVitals from './reportWebVitals';
+import AppProductList from './AppProductList';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* StrictMode－嚴格模式 */}
-    <APP />
+    <AppProductList />
   </React.StrictMode>,
   document.getElementById('root')
 );

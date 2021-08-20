@@ -1,7 +1,7 @@
 import React from 'react';
 
-function RadioBox(prop) {
-  const { value, checkedValue, setCheckedValue } = prop;
+function RadioBox(props) {
+  const { value, checkedValue, setCheckedValue } = props;
 
   return (
     <>
